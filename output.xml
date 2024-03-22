@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T17:41:29.354462" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="c:\Users\Richard\Documents\Klx\Tests\Login.robot">
+<test id="s1-t1" name="Verify Successful Login to saucedemo" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:41:29.513218" level="INFO">Opening browser 'Chrome' to base url 'http://automationexercise.com'.</msg>
+<arg>http://automationexercise.com</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-21T17:41:29.512219" elapsed="5.077771"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:41:34.589990" level="INFO">Opening url 'https://automationexercise.com/products'</msg>
+<arg>https://automationexercise.com/products</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-03-21T17:41:34.589990" elapsed="1.919723"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>search_product</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-03-21T17:41:36.509713" elapsed="0.017998"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:41:36.527711" level="INFO">Typing text 'men tshirt' into text field 'id:search_product'.</msg>
+<arg>id:search_product</arg>
+<arg>men tshirt</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:41:36.527711" elapsed="0.082526"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:41:36.610237" level="INFO">Clicking element 'id:submit_search'.</msg>
+<arg>id:submit_search</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:41:36.610237" elapsed="1.134264"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:41:37.866035" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-03-21T17:41:37.866035" level="FAIL">Element with locator 'xpath=/html/body/section[2]/div[1]/div/div[2]/div/div[3]/div/div[1]/div[1]/a' not found.</msg>
+<arg>xpath=/html/body/section[2]/div[1]/div/div[2]/div/div[3]/div/div[1]/div[1]/a</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="FAIL" start="2024-03-21T17:41:37.744501" elapsed="0.123535">Element with locator 'xpath=/html/body/section[2]/div[1]/div/div[2]/div/div[3]/div/div[1]/div[1]/a' not found.</status>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>2</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.869035" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id:2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.869035" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id:search_product Soft Stretch Jeans</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.869035" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id:submit_search</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.870529" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>id=33</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.870529" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>33</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.871528" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id:33</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.871528" elapsed="0.000000"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>https://automationexercise.com/view_cart</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.871528" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>"#product-33 &gt; td.cart_description"</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.872528" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>"#product-2 &gt; td.cart_description"</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-03-21T17:41:37.872528" elapsed="0.000000"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" start="2024-03-21T17:41:29.512219" elapsed="8.360309">Element with locator 'xpath=/html/body/section[2]/div[1]/div/div[2]/div/div[3]/div/div[1]/div[1]/a' not found.</status>
+</test>
+<doc>Login Functionality</doc>
+<status status="FAIL" start="2024-03-21T17:41:29.359463" elapsed="8.514065"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
